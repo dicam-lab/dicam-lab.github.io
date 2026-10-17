@@ -104,7 +104,7 @@ const SITE = {
 
   /* ---------- People (Team page) ---------- */
   pi: {
-    name: "Dr. Dilhara [Last Name]",
+    name: "Dr. Dilhara Wickramasinghe",
     role: "Principal Investigator · Assistant Professor of Mathematics",
     photo: "",
     bio:
