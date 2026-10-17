@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="DiCAM Lab logo">
+  <rect width="120" height="120" rx="26" fill="#16324f"/>
+  <path d="M20 96 H100" stroke="#ffffff" stroke-opacity=".25" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 96 V22" stroke="#ffffff" stroke-opacity=".25" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 92 C25 48 31 38 46 36 S80 34 100 33" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M46 36 L70 62 L94 34 M46 36 L70 62" fill="none" stroke="#3ec1b0" stroke-width="2.5" stroke-opacity=".8"/>
+  <circle cx="46" cy="36" r="6" fill="#3ec1b0"/>
+  <circle cx="72" cy="34.6" r="6" fill="#3ec1b0"/>
+  <circle cx="98" cy="33" r="6" fill="#3ec1b0"/>
+  <circle cx="70" cy="64" r="7" fill="#f2b84b"/>
+</svg>
