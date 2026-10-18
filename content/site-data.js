@@ -118,7 +118,7 @@ const SITE = {
       "singularly perturbed convection–reaction–diffusion problems.",
     links: [
       { label: "Email", url: "mailto:wickramasc1@nku.edu" },
-      { label: "Google Scholar", url: "#" },
+      { label: "Google Scholar", url: "https://scholar.google.com/citations?user=WQuYt0sAAAAJ&hl=en&oi=ao" },
       { label: "CV", url: "#" }
     ]
   },
