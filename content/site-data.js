@@ -106,7 +106,7 @@ const SITE = {
   pi: {
     name: "Dr. Charuka Dilhara Wickramasinghe",
     role: "Principal Investigator · Assistant Professor of Mathematics",
-    photo: "",
+    photo: "Dilhara.jpg",
     bio:
       "I am an applied mathematician and educator. My research focuses on numerical analysis, differential equations, scientific computing, and physics-informed neural networks (PINNs),
        with applications in physics, engineering, finance, medicine, and artificial intelligence. My current research work reflects an interplay of mathematical modeling and pharmacology. 
