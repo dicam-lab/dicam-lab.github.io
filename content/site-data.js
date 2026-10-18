@@ -108,7 +108,7 @@ const SITE = {
     role: "Principal Investigator · Assistant Professor of Mathematics",
     photo: "",
     bio:
-      "Write 3–4 sentences about your background: your PhD institution and field, " +
+      "I am an applied mathematician and educator. My research focuses on numerical analysis, differential equations, scientific computing, and physics-informed neural networks (PINNs), with applications in physics, engineering, finance, medicine, and artificial intelligence. My current research work reflects an interplay of mathematical modeling and pharmacology. This includes physiologically based pharmacokinetic (PBPK) modeling of brain cancers, population pharmacokinetic analysis, and metabolic flux analysis. I also develop interactive web applications using R Shiny and Python Shiny to make our novel brain models accessible to a broad audience of researchers, clinicians, and students. In addition, I am interested in using physics-informed neural networks to solve singularly perturbed convection–reaction–diffusion problems. Write 3–4 sentences about your background: your PhD institution and field, " +
       "your research interests, and what you enjoy about mentoring undergraduate researchers.",
     links: [
       { label: "Email", url: "mailto:wickramasc1@nku.edu" },
