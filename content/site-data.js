@@ -104,7 +104,7 @@ const SITE = {
 
   /* ---------- People (Team page) ---------- */
   pi: {
-    name: "Dr. Dilhara Wickramasinghe",
+    name: "Dr. Charuka Dilhara Wickramasinghe",
     role: "Principal Investigator · Assistant Professor of Mathematics",
     photo: "",
     bio:
