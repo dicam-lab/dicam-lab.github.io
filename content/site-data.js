@@ -145,10 +145,10 @@ const SITE = {
   },
 
   students: [
-    { name: "Student Name 1", major: "Mathematics", year: "Junior",    photo: "", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
-    { name: "Student Name 2", major: "Mathematics", year: "Senior",    photo: "", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
-    { name: "Student Name 3", major: "Mathematics", year: "Junior",    photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
-    { name: "Student Name 4", major: "Mathematics", year: "Sophomore", photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
+    { name: "Renn Spigelmyer", major: "Mathematics", year: "Junior",    photo: "", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
+    { name: "Christopher Boylan", major: "Mathematics", year: "Senior",    photo: "", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
+    { name: "Zack Cepluch", major: "Mathematics", year: "Junior",    photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
+    { name: "D.J. Bidwell", major: "Mathematics", year: "Sophomore", photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
     { name: "Student Name 5", major: "Data Science", year: "Senior",   photo: "", project: "Physics-Informed Neural Networks", bio: "One or two sentences written or approved by the student." },
     { name: "Student Name 6", major: "Computer Science", year: "Junior", photo: "", project: "Physics-Informed Neural Networks", bio: "One or two sentences written or approved by the student." }
   ],
