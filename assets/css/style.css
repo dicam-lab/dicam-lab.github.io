@@ -84,7 +84,7 @@ p.sec-sub { color: var(--muted); margin: 0 0 26px; }
 /* People */
 .pi-card { display: grid; grid-template-columns: 200px 1fr; gap: 28px; align-items: center; }
 @media (max-width: 700px) { .pi-card { grid-template-columns: 1fr; text-align: center; } .pi-card .avatar { margin: 0 auto; } }
-.avatar { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; box-shadow: 0 4px 14px rgba(22,50,79,.18); }
+.avatar { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; object-position: center top; border: 4px solid #fff; box-shadow: 0 4px 14px rgba(22,50,79,.18); }
 .avatar.initials { display: grid; place-items: center; background: linear-gradient(135deg, var(--navy-2), var(--teal)); color: #fff; font-family: var(--serif); font-size: 2.6rem; font-weight: 700; }
 .person { text-align: center; }
 .person .avatar { width: 130px; height: 130px; margin: 0 auto 10px; }
@@ -117,3 +117,6 @@ ul.check li { margin: 6px 0; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-sub { font-size: .72rem; color: #a9c3d9; letter-spacing: .3px; }
 @media (max-width: 480px) { .brand-sub { display: none; } }
+.person.alum .avatar { width: 104px; height: 104px; }
+.person.alum .avatar.initials { font-size: 1.7rem; }
+.person.alum h3 { font-size: 1rem; }

@@ -105,7 +105,19 @@
             </div>`).join("")}
         </div>
       </div></section>
-      ${S.alumni.length ? `<section style="padding-top:0"><div class="wrap"><h2 class="sec">Alumni</h2><ul class="list">${S.alumni.map(a => `<li><strong>${esc(a.name)}</strong> (${esc(a.years)}): ${esc(a.now)}</li>`).join("")}</ul></div></section>` : ""}`,
+      ${S.alumni.length ? `<section style="padding-top:0"><div class="wrap">
+        <h2 class="sec">Former members</h2><p class="sec-sub">Students who have completed research with the lab, and where they are now.</p>
+        <div class="grid grid-4">
+          ${S.alumni.map(a => `
+            <div class="card person alum">
+              ${avatar(a)}
+              <h3>${esc(a.name)}</h3>
+              <div class="meta">${esc(a.years)}</div>
+              ${a.project ? `<span class="pill" style="margin-top:8px">${esc(a.project)}</span>` : ""}
+              ${a.now ? `<p><strong>Now:</strong> ${esc(a.now)}</p>` : ""}
+            </div>`).join("")}
+        </div>
+      </div></section>` : ""}`,
 
     publications: () => head("Publications & Presentations", "Papers, posters, and talks by lab members") + `
       <section><div class="wrap">
