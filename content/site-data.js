@@ -145,7 +145,7 @@ const SITE = {
   },
 
   students: [
-    { name: "Renn Spigelmyer", major: "Mathematics", year: "Junior",    photo: "Renn.jpeg", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
+    { name: "Renn Spigelmyer", major: "Mathematics", year: "Junior",    photo: "Renn.jpg", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
     { name: "Christopher Boylan", major: "Mathematics", year: "Senior",    photo: "", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
     { name: "Zack Cepluch", major: "Mathematics", year: "Junior",    photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
     { name: "D.J. Bidwell", major: "Mathematics", year: "Sophomore", photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
