@@ -145,10 +145,10 @@ const SITE = {
   },
 
   students: [
-    { name: "Renn Spigelmyer", major: "Mathematics", year: "Junior",    photo: "Renn.jpg", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
-    { name: "Christopher Boylan", major: "Mathematics", year: "Senior",    photo: "", project: "Brain Tumor Modeling",            bio: "One or two sentences written or approved by the student." },
-    { name: "Zack Cepluch", major: "Mathematics", year: "Junior",    photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
-    { name: "D.J. Bidwell", major: "Mathematics", year: "Sophomore", photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
+    { name: "Renn Spigelmyer", major: "Neuroscience B.S. (Computational Track)", minor: "Mathematics", year: "Senior",    photo: "Renn.jpg", project: "Brain Tumor Modeling",            bio: "Renn is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
+    { name: "Christopher Boylan", major: "Mathematics", year: "Freshman",    photo: "", project: "Brain Tumor Modeling",            bio: "Christopher is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
+    { name: "Zack Cepluch", major: "Mathematics", minor: "Mathematics", year: "Freshman",    photo: "", project: "Singularly Perturbed Problems",   bio: "Zack is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
+    { name: "D.J. Bidwell", major: "Engineering Physics", minor: "Mathematics", year: "Freshman", photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
     { name: "Student Name 5", major: "Data Science", year: "Senior",   photo: "", project: "Physics-Informed Neural Networks", bio: "One or two sentences written or approved by the student." },
     { name: "Student Name 6", major: "Computer Science", year: "Junior", photo: "", project: "Physics-Informed Neural Networks", bio: "One or two sentences written or approved by the student." }
   ],
