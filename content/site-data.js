@@ -160,10 +160,10 @@ const SITE = {
      Leave degree: "" or now: "" if you don't have the information yet; that line is then hidden. */
 
   alumni: [
-    { name: "Matthew Whalen",    years: "University of Kentucky",   degree: "B.Sc. in Computer Science", project: "Finite Difference Methods",        photo: "matthew-whalen.jpg",  bio: "Published his research work in the American Journal of Undergraduate Research, June 2025.", link: "https://doi.org/10.33697/ajur.2025.140", linkText: "Read the paper", now: "Began working as a Software Engineer at GE Appliances and pursued an M.S. in Computer Science (online) at Georgia Tech." },
+    { name: "Matthew Whalen",    years: "University of Kentucky",   degree: "B.Sc. in Computer Science", project: "Finite Difference Methods",        photo: "matthew-whalen.jpg",  bio: "Published his research work in the American Journal of Undergraduate Research, June 2025.", link: "https://doi.org/10.33697/ajur.2025.140", linkText: "Read the paper", now: "Began working as a Software Engineer at GE Appliances." },
     { name: "Daniel T. Gregory", years: "University of Kentucky",   degree: "B.Sc. in Mathematics",      project: "Singularly Perturbed Problems",    photo: "daniel-gregory.jpg",  bio: "His research work is available on arXiv.", link: "https://doi.org/10.48550/arXiv.2306.03181", linkText: "Read the paper", now: "Began working as a Senior Data Analyst at PURE Insurance." },
-    { name: "Andrew Particka",   years: "Siena Heights University", degree: "",                          project: "Physics-Informed Neural Networks", photo: "andrew-particka.jpg", bio: "Published his research work in the American Journal of Undergraduate Research, June 2026.", now: "" },
-    { name: "Ian Griffin",       years: "Siena Heights University", degree: "",                          project: "Physics-Informed Neural Networks", photo: "ian-griffin.jpg",     bio: "Published his research work in the American Journal of Undergraduate Research, June 2026.", now: "" }
+    { name: "Andrew Particka",   years: "Siena Heights University", degree: "",                          project: "Physics-Informed Neural Networks", photo: "andrew-particka.jpg", bio: "Published his research work in the American Journal of Undergraduate Research, June 2026.", link: "https://doi.org/10.33697/ajur.2026.175", linkText: "Read the paper", now: "" },
+    { name: "Ian Griffin",       years: "Siena Heights University", degree: "",                          project: "Physics-Informed Neural Networks", photo: "ian-griffin.jpg",     bio: "Published his research work in the American Journal of Undergraduate Research, June 2026.", link: "https://doi.org/10.33697/ajur.2026.175", linkText: "Read the paper", now: "" }
   ],
 
 
