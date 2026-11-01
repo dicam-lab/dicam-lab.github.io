@@ -93,7 +93,7 @@
         </div>
       </div></section>
       <section style="padding-top:0"><div class="wrap">
-        <h2 class="sec">Undergraduate researchers</h2><p class="sec-sub">${S.students.length} students working on ${S.projects.length} projects.</p>
+        <h2 class="sec">Current studednt researchers</h2><p class="sec-sub">${S.students.length} students working on ${S.projects.length} projects.</p>
         <div class="grid grid-3">
           ${S.students.map(s => `
             <div class="card person">
@@ -106,7 +106,7 @@
         </div>
       </div></section>
       ${S.alumni.length ? `<section style="padding-top:0"><div class="wrap">
-        <h2 class="sec">Former members</h2><p class="sec-sub">Students who have completed research with the lab, and where they are now.</p>
+        <h2 class="sec">Former studednt researchers</h2><p class="sec-sub">Students who have completed research with the lab, and where they are now.</p>
         <div class="grid grid-4">
           ${S.alumni.map(a => `
             <div class="card person alum">
