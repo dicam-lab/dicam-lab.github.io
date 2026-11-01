@@ -149,8 +149,8 @@ const SITE = {
     { name: "Christopher Boylan", major: "Mathematics", year: "Freshman",    photo: "", project: "Brain Tumor Modeling",            bio: "Christopher is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
     { name: "Zack Cepluch", major: "Mathematics", minor: "Mathematics", year: "Freshman",    photo: "", project: "Singularly Perturbed Problems",   bio: "Zack is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
     { name: "D.J. Bidwell", major: "Engineering Physics", minor: "Mathematics", year: "Freshman", photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
-    { name: "Tyrus Whitman",     years: "Siena Heights University", photo: "tyrus-whitman.jpg",     project: "Physics-Informed Neural Networks" },
-    { name: "Christopher Diers", years: "Siena Heights University", photo: "christopher-diers.jpg", project: "Physics-Informed Neural Networks" }
+    { name: "Tyrus Whitman",     years: "Siena Heights University", photo: "tyrus-whitman.jpg",     project: "Physics-Informed Neural Networks", bio: "Tyrus is an undergraduate student at Indiana Institute of Technology, pursuing a Bachelor of Science in Mechanical Engineering. He is currently developing a physics-informed neural network (PINN) methodology for solving the Schrödinger equation for high-order quantum eigenvalues."},
+    { name: "Christopher Diers", years: "Siena Heights University", photo: "christopher-diers.jpg", project: "Physics-Informed Neural Networks", bio: "Christopher graduated from Siena Heights University in Fall 2026 with a Bachelor of Science in Cybersecurity.  He is currently developing a physics-informed neural network (PINN) methodology for solving the Schrödinger equation for high-order quantum eigenvalues." }
   ],
 
   /* Former members: one line per person. photo, project and now are optional. */
