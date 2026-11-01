@@ -149,8 +149,8 @@ const SITE = {
     { name: "Christopher Boylan", major: "Mathematics", year: "Freshman",    photo: "", project: "Brain Tumor Modeling",            bio: "Christopher is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
     { name: "Zack Cepluch", major: "Mathematics", minor: "Mathematics", year: "Freshman",    photo: "", project: "Singularly Perturbed Problems",   bio: "Zack is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
     { name: "D.J. Bidwell", major: "Engineering Physics", minor: "Mathematics", year: "Freshman", photo: "", project: "Singularly Perturbed Problems",   bio: "One or two sentences written or approved by the student." },
-    { name: "Student Name 5", major: "Data Science", year: "Senior",   photo: "", project: "Physics-Informed Neural Networks", bio: "One or two sentences written or approved by the student." },
-    { name: "Student Name 6", major: "Computer Science", year: "Junior", photo: "", project: "Physics-Informed Neural Networks", bio: "One or two sentences written or approved by the student." }
+    { name: "Tyrus Whitman",     years: "Siena Heights University", photo: "tyrus-whitman.jpg",     project: "Physics-Informed Neural Networks" },
+    { name: "Christopher Diers", years: "Siena Heights University", photo: "christopher-diers.jpg", project: "Physics-Informed Neural Networks" }
   ],
 
   /* Former members: one line per person. photo, project and now are optional. */
@@ -159,8 +159,6 @@ const SITE = {
     { name: "Daniel T. Gregory", years: "University of Kentucky",   photo: "daniel-gregory.jpg",    project: "Singularly Perturbed Problems",    now: "Senior Data Analyst at PURE Insurance" },
     { name: "Andrew Particka",   years: "Siena Heights University", photo: "andrew-particka.jpg",   project: "Physics-Informed Neural Networks" },
     { name: "Ian Griffin",       years: "Siena Heights University", photo: "ian-griffin.jpg",       project: "Physics-Informed Neural Networks" },
-    { name: "Tyrus Whitman",     years: "Siena Heights University", photo: "tyrus-whitman.jpg",     project: "Physics-Informed Neural Networks" },
-    { name: "Christopher Diers", years: "Siena Heights University", photo: "christopher-diers.jpg", project: "Physics-Informed Neural Networks" },
   ],
 
   /* ---------- Publications & presentations ---------- */
