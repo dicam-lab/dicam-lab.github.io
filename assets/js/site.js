@@ -116,7 +116,7 @@
               ${a.years ? `<div class="meta">${esc(a.years)}</div>` : ""}
               ${a.degree ? `<div class="degree" style="color:#4B5563;font-size:0.95rem;margin-top:2px">${esc(a.degree)}</div>` : ""}
               ${a.project ? `<span class="pill" style="margin-top:8px">${esc(a.project)}</span>` : ""}
-              ${a.bio ? `<p>${esc(a.bio)}</p>` : ""}
+              ${a.bio ? `<p>${esc(a.bio)}${a.link ? ` <a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.linkText || "View paper")}</a>` : ""}</p>` : ""}
               ${a.now ? `<p><strong>After the lab:</strong> ${esc(a.now)}</p>` : ""}
             </div>`).join("")}
         </div>
