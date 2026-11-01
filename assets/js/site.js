@@ -93,20 +93,20 @@
         </div>
       </div></section>
       <section style="padding-top:0"><div class="wrap">
-        <h2 class="sec">Current studednt researchers</h2><p class="sec-sub">${S.students.length} students working on ${S.projects.length} projects.</p>
+        <h2 class="sec">Current student researchers</h2><p class="sec-sub">${S.students.length} students working on ${S.projects.filter(p => p.status === "Active").length} projects.</p>
         <div class="grid grid-3">
           ${S.students.map(s => `
             <div class="card person">
               ${avatar(s)}
               <h3>${esc(s.name)}</h3>
-              <div class="meta">${esc(s.major)} · ${esc(s.year)}</div>
-              <span class="pill" style="margin-top:8px">${esc(s.project)}</span>
-              <p>${esc(s.bio)}</p>
+              ${s.years ? `<div class="meta">${esc(s.years)}</div>` : ""}
+              ${s.project ? `<span class="pill" style="margin-top:8px">${esc(s.project)}</span>` : ""}
+              ${s.bio ? `<p>${esc(s.bio)}</p>` : ""}
             </div>`).join("")}
         </div>
       </div></section>
       ${S.alumni.length ? `<section style="padding-top:0"><div class="wrap">
-        <h2 class="sec">Former studednt researchers</h2><p class="sec-sub">Students who have completed research with the lab, and where they are now.</p>
+        <h2 class="sec">Former student researchers</h2><p class="sec-sub">Students who have completed research with the lab, and where they went next.</p>
         <div class="grid grid-4">
           ${S.alumni.map(a => `
             <div class="card person alum">
@@ -114,7 +114,8 @@
               <h3>${esc(a.name)}</h3>
               <div class="meta">${esc(a.years)}</div>
               ${a.project ? `<span class="pill" style="margin-top:8px">${esc(a.project)}</span>` : ""}
-              ${a.now ? `<p><strong>Now:</strong> ${esc(a.now)}</p>` : ""}
+              ${a.bio ? `<p>${esc(a.bio)}</p>` : ""}
+              ${a.now ? `<p><strong>After the lab:</strong> ${esc(a.now)}</p>` : ""}
             </div>`).join("")}
         </div>
       </div></section>` : ""}`,
