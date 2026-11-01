@@ -144,23 +144,25 @@ const SITE = {
     ]
   },
 
+  /* Current members: one line per person.
+     Card shows: name → university (years) → degree program (degree) → research field (project) → description (bio). */
+  students: [
+    { name: "Renn Spigelmyer",    years: "Northern Kentucky University",    degree: "B.S. in Neuroscience (Computational Track), Minor in Mathematics", project: "Brain Tumor Modeling",             photo: "Renn.jpg",              bio: "Renn is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
+    { name: "Christopher Boylan", years: "Northern Kentucky University",    degree: "Major in Mathematics",                                            project: "Brain Tumor Modeling",             photo: "",                      bio: "Christopher is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors." },
+    { name: "Zack Cepluch",       years: "Northern Kentucky University",    degree: "Major in Mathematics",                                            project: "Singularly Perturbed Problems",    photo: "",                      bio: "Zack is an undergraduate student at Northern Kentucky University who is currently working on numerical methods for singularly perturbed convection–reaction–diffusion problems." },
+    { name: "D.J. Bidwell",       years: "Northern Kentucky University",    degree: "Major in Engineering Physics, Minor in Mathematics",              project: "Singularly Perturbed Problems",    photo: "",                      bio: "One or two sentences written or approved by the student." },
+    { name: "Tyrus Whitman",      years: "Indiana Institute of Technology", degree: "B.S. in Mechanical Engineering",                                  project: "Physics-Informed Neural Networks", photo: "tyrus-whitman.jpg",     bio: "Tyrus is an undergraduate student at Indiana Institute of Technology, pursuing a Bachelor of Science in Mechanical Engineering. He is currently developing a physics-informed neural network (PINN) methodology for solving the Schrödinger equation for high-order quantum eigenvalues." },
+    { name: "Christopher Diers",  years: "Siena Heights University",        degree: "B.S. in Cybersecurity",                                           project: "Physics-Informed Neural Networks", photo: "christopher-diers.jpg", bio: "Christopher graduated from Siena Heights University in Fall 2026 with a Bachelor of Science in Cybersecurity. He is currently developing a physics-informed neural network (PINN) methodology for solving the Schrödinger equation for high-order quantum eigenvalues." }
+  ],
 
-students: [
-  { name: "Renn Spigelmyer",    major: "B.S. in Neuroscience (Computational Track)", minor: "Mathematics", years: "Northern Kentucky University",    project: "Brain Tumor Modeling",             bio: "Renn is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors.", year: "Senior",   photo: "Renn.jpg" },
-  { name: "Christopher Boylan", major: "Mathematics",                                                    years: "Northern Kentucky University",    project: "Brain Tumor Modeling",             bio: "Christopher is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors.", year: "Freshman", photo: "" },
-  { name: "Zack Cepluch",       major: "Mathematics",                                                    years: "Northern Kentucky University",    project: "Singularly Perturbed Problems",    bio: "Zack is an undergraduate student at Northern Kentucky University who is currently working on developing a brain model to predict drug penetration into the human brain and brain tumors.", year: "Freshman", photo: "" },
-  { name: "D.J. Bidwell",       major: "Engineering Physics",                        minor: "Mathematics", years: "Northern Kentucky University",    project: "Singularly Perturbed Problems",    bio: "One or two sentences written or approved by the student.", year: "Freshman", photo: "" },
-  { name: "Tyrus Whitman",      major: "B.S. in Mechanical Engineering",                                 years: "Indiana Institute of Technology", project: "Physics-Informed Neural Networks", bio: "Tyrus is an undergraduate student at Indiana Institute of Technology, pursuing a Bachelor of Science in Mechanical Engineering. He is currently developing a physics-informed neural network (PINN) methodology for solving the Schrödinger equation for high-order quantum eigenvalues.", photo: "tyrus-whitman.jpg" },
-  { name: "Christopher Diers",  major: "B.S. in Cybersecurity",                                          years: "Siena Heights University",        project: "Physics-Informed Neural Networks", bio: "Christopher graduated from Siena Heights University in Fall 2026 with a Bachelor of Science in Cybersecurity. He is currently developing a physics-informed neural network (PINN) methodology for solving the Schrödinger equation for high-order quantum eigenvalues.", photo: "christopher-diers.jpg" }
-],
-
-
-  /* Former members: one line per person. photo, project and now are optional. */
+  /* Former members: one line per person.
+     Card shows: name → university (years) → degree program (degree) → research field (project) → description (bio) → "After the lab:" (now).
+     Leave degree: "" or now: "" if you don't have the information yet; that line is then hidden. */
   alumni: [
-    { name: "Matthew Whalen",    years: "University of Kentucky",   photo: "matthew-whalen.jpg",    project: "Finite Difference Methods",        now: "Software Engineer at GE Appliances; M.S. in Computer Science (online), Georgia Tech" },
-    { name: "Daniel T. Gregory", years: "University of Kentucky",   photo: "daniel-gregory.jpg",    project: "Singularly Perturbed Problems",    now: "Senior Data Analyst at PURE Insurance" },
-    { name: "Andrew Particka",   years: "Siena Heights University", photo: "andrew-particka.jpg",   project: "Physics-Informed Neural Networks" },
-    { name: "Ian Griffin",       years: "Siena Heights University", photo: "ian-griffin.jpg",       project: "Physics-Informed Neural Networks" },
+    { name: "Matthew Whalen",    years: "University of Kentucky",   degree: "", project: "Finite Difference Methods",        photo: "matthew-whalen.jpg",  bio: "Developed a finite difference method and its error estimate for the two-dimensional Poisson equation with Dirichlet boundary conditions, published in the American Journal of Undergraduate Research.", now: "Began working as a Software Engineer at GE Appliances and pursued an M.S. in Computer Science (online) at Georgia Tech." },
+    { name: "Daniel T. Gregory", years: "University of Kentucky",   degree: "", project: "Singularly Perturbed Problems",    photo: "daniel-gregory.jpg",  bio: "Studied an upwind finite difference method on a layer-adapted Shishkin mesh for singularly perturbed convection–diffusion problems.", now: "Began working as a Senior Data Analyst at PURE Insurance." },
+    { name: "Andrew Particka",   years: "Siena Heights University", degree: "", project: "Physics-Informed Neural Networks", photo: "andrew-particka.jpg", bio: "Contributed to a group project developing physics-informed neural network (PINN) frameworks for engineering and biological dynamical systems governed by ordinary differential equations.", now: "" },
+    { name: "Ian Griffin",       years: "Siena Heights University", degree: "", project: "Physics-Informed Neural Networks", photo: "ian-griffin.jpg",     bio: "Contributed to a group project developing physics-informed neural network (PINN) frameworks for engineering and biological dynamical systems governed by ordinary differential equations.", now: "" }
   ],
 
   /* ---------- Publications & presentations ---------- */
